@@ -17,3 +17,5 @@ Central documentation hub for the WokSpec ecosystem.
 - [Dilu](./projects/dilu.md)
 - [WokTool](./projects/woktool.md)
 - [WokForge](./projects/wokforge.md)
+- [WokPost](./projects/wokpost.md)
+- [GatheRice](./projects/gatherice.md)

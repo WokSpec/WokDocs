@@ -14,9 +14,11 @@ An AI-native platform for people who create things. WokSpec is a family of inter
 | **Dilu** | [dilu.wokspec.org](https://dilu.wokspec.org) | No-code product launcher with integrations |
 | **Vecto** | [vecto.wokspec.org](https://vecto.wokspec.org) | AI design studio (vectors, brand, UI, voice, code) |
 | **WokGen** | [wokgen.wokspec.org](https://wokgen.wokspec.org) | AI pixel art studio (sprites, tilesets, animations) |
+| **WokPost** | [wokpost.wokspec.org](https://wokpost.wokspec.org) | AI-curated news aggregator and editorial platform |
 | **WokTool** | [tools.wokspec.org](https://tools.wokspec.org) | 80+ free browser tools — no login required |
 | **WokForge** | [wokforge.wokspec.org](https://wokforge.wokspec.org) | AI-native web automation platform |
 | **Chopsticks** | [chopsticks.wokspec.org](https://chopsticks.wokspec.org) | Open-source Discord bot + agent pool system |
+| **GatheRice** | [gatherice.wokspec.org](https://gatherice.wokspec.org) | Minimalist high-performance rice-gathering idle game |
 
 ---
 
@@ -40,13 +42,13 @@ An AI-native platform for people who create things. WokSpec is a family of inter
           │ design AI   │ │ pixel art AI│ │ no-code     │
           └─────────────┘ └─────────────┘ └─────────────┘
                  ┌───────────────┼───────────────┐
-          ┌──────▼──────┐ ┌──────▼──────┐
-          │  WokForge   │ │ Chopsticks  │
-          │ automation  │ │ Discord bot │
+          ┌──────▼──────┐ ┌──────▼──────┐ ┌──────▼──────┐
+          │  WokForge   │ │ Chopsticks  │ │   WokPost   │
+          │ automation  │ │ Discord bot │ │ AI news     │
+          └─────────────┘ └─────────────┘ └─────────────┘
+          ┌─────────────┐ ┌─────────────┐
+          │   WokTool   │ │  GatheRice  │  ← standalone products
           └─────────────┘ └─────────────┘
-                          ┌─────────────┐
-                          │   WokTool   │  ← standalone, no auth required
-                          └─────────────┘
 ```
 
 ---
@@ -111,6 +113,8 @@ All repositories live under the **[WokSpec GitHub Organisation](https://github.c
 | [WokSpec/WokTool](https://github.com/WokSpec/WokTool) | Public | TypeScript |
 | [WokSpec/WokForge](https://github.com/WokSpec/WokForge) | Public | TypeScript |
 | [WokSpec/Chopsticks](https://github.com/WokSpec/Chopsticks) | Public | JavaScript |
+| [WokSpec/wokpost](https://github.com/WokSpec/wokpost) | Public | TypeScript |
+| [WokSpec/GatheRice](https://github.com/WokSpec/GatheRice) | Public | TypeScript |
 
 ---
 
@@ -120,15 +124,17 @@ Each project has an extended documentation folder at `docs/<project>/`:
 
 | Project | Architecture | API | Deployment | Contributing | Security |
 |---|---|---|---|---|---|
-| WokSite | [→](./woksite/architecture.md) | — | [→](./woksite/deployment.md) | [→](./woksite/contributing.md) | [→](./woksite/security.md) |
-| WokAPI | [→](./wokapi/architecture.md) | [→](./wokapi/api.md) | [→](./wokapi/deployment.md) | [→](./wokapi/contributing.md) | [→](./wokapi/security.md) |
-| Eral | [→](./eral/architecture.md) | [→](./eral/api.md) | [→](./eral/deployment.md) | [→](./eral/contributing.md) | [→](./eral/security.md) |
-| Chopsticks | [→](./chopsticks/architecture.md) | — | [→](./chopsticks/deployment.md) | [→](./chopsticks/contributing.md) | [→](./chopsticks/security.md) |
-| WokGen | [→](./wokgen/architecture.md) | [→](./wokgen/api.md) | [→](./wokgen/deployment.md) | [→](./wokgen/contributing.md) | — |
-| Vecto | [→](./vecto/architecture.md) | [→](./vecto/api.md) | [→](./vecto/deployment.md) | [→](./vecto/contributing.md) | — |
-| Dilu | [→](./dilu/architecture.md) | — | [→](./dilu/deployment.md) | [→](./dilu/contributing.md) | — |
-| WokTool | [→](./woktool/architecture.md) | — | [→](./woktool/deployment.md) | [→](./woktool/contributing.md) | — |
-| WokForge | [→](./wokforge/architecture.md) | [→](./wokforge/api.md) | [→](./wokforge/deployment.md) | [→](./wokforge/contributing.md) | [→](./wokforge/security.md) |
+| WokSite | [→](../../WokSite/docs/architecture.md) | — | [→](../../WokSite/docs/deployment.md) | [→](../../WokSite/docs/contributing.md) | [→](../../WokSite/docs/security.md) |
+| WokAPI | [→](../../WokAPI/docs/architecture.md) | [→](../../WokAPI/docs/api.md) | [→](../../WokAPI/docs/deployment.md) | [→](../../WokAPI/docs/contributing.md) | [→](../../WokAPI/docs/security.md) |
+| Eral | [→](../../Eral/docs/architecture.md) | [→](../../Eral/docs/api.md) | [→](../../Eral/docs/deployment.md) | [→](../../Eral/docs/contributing.md) | [→](../../Eral/docs/security.md) |
+| Chopsticks | [→](../../Chopsticks/docs/architecture.md) | — | [→](../../Chopsticks/docs/deployment.md) | [→](../../Chopsticks/docs/contributing.md) | [→](../../Chopsticks/docs/security.md) |
+| WokGen | [→](../../WokGen/docs/architecture.md) | [→](../../WokGen/docs/api.md) | [→](../../WokGen/docs/deployment.md) | [→](../../WokGen/docs/contributing.md) | — |
+| Vecto | [→](../../Vecto/docs/architecture.md) | [→](../../Vecto/docs/api.md) | [→](../../Vecto/docs/deployment.md) | [→](../../Vecto/docs/contributing.md) | — |
+| Dilu | [→](../../Dilu/docs/architecture.md) | — | [→](../../Dilu/docs/deployment.md) | [→](../../Dilu/docs/contributing.md) | — |
+| WokTool | [→](../../WokTool/docs/architecture.md) | — | [→](../../WokTool/docs/deployment.md) | [→](../../WokTool/docs/contributing.md) | — |
+| WokForge | [→](../../WokForge/docs/architecture.md) | [→](../../WokForge/docs/api.md) | [→](../../WokForge/docs/deployment.md) | [→](../../WokForge/docs/contributing.md) | [→](../../WokForge/docs/security.md) |
+| WokPost | [→](../../wokpost/docs/architecture.md) | — | [→](../../wokpost/docs/deployment.md) | — | — |
+| GatheRice | [→](../../GatheRice/docs/architecture.md) | — | — | — | — |
 
 ---
 

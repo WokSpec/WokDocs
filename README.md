@@ -1,21 +1,9 @@
 # WokDocs
 
-Central documentation hub for the WokSpec ecosystem.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wokspec/WokDocs/main/assets/hero.svg" alt="WokDocs hero" />
+</p>
 
-- [Ecosystem Overview](./ECOSYSTEM.md)
-- [Security Policy](./SECURITY.md)
-- [Contributing Guide](./CONTRIBUTING.md)
+Documentation Hub
 
-## Projects
-
-- [WokSite](./projects/woksite.md)
-- [WokAPI](./projects/wokapi.md)
-- [Eral](./projects/eral.md)
-- [Chopsticks](./projects/chopsticks.md)
-- [WokGen](./projects/wokgen.md)
-- [Vecto](./projects/vecto.md)
-- [Dilu](./projects/dilu.md)
-- [WokTool](./projects/woktool.md)
-- [WokForge](./projects/wokforge.md)
-- [WokPost](./projects/wokpost.md)
-- [GatheRice](./projects/gatherice.md)
+This repository is part of the WokSpec ecosystem. See https://wokspec.org for links and docs.

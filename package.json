@@ -1,0 +1,11 @@
+{
+  "name": "@wokspec/docs",
+  "version": "1.0.0",
+  "description": "WokDocs - Central documentation hub for the WokSpec ecosystem",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Docs build - static content'",
+    "dev": "echo 'Docs dev - static content'",
+    "lint": "echo 'Docs lint - static content'"
+  }
+}
